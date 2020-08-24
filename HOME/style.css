@@ -1,0 +1,295 @@
+/************ CSS Styles ************
+
+/*==================================
+
+        Table of Content
+
+        1. Body
+        2. loding page
+        3. Navbar header
+        4.home Section
+        5. About Section
+        6. skills Section
+        7. works Section
+        8. Portfolio Section
+        9. more Section
+        10. button Section
+        11. Contact  Section
+        12. Footer
+        15. Mobile Responsive
+
+==================================*/
+/*============ 1. Body style Css ============*/
+#home {
+  background-image: url("Img/nature.jpg");
+  height: 750px;
+  background-position: 0% 0px;
+}
+.banner {
+  width: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  list-style: none !important;
+  outline: none !important; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+a,
+a:hover,
+a:focus {
+  color: inherit; }
+
+body {
+  font-family: "Raleway", san-serif;
+  position: relative;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #484848;
+  -webkit-font-smoothing: antialiased; }
+
+p {
+  font-size: 16px;
+  line-height: 1.65;
+  font-family: "Open Sans", sans-serif; }
+
+span {
+  display: inline-block; }
+
+/*===========Margin And Paddings============*/
+/*============ 3. Navbar ============*/
+nav.navbar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease; }
+  nav.navbar .logo {
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif; }
+  nav.navbar .navbar-toggler {
+    border: 0; }
+    nav.navbar .navbar-toggler .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+  nav.navbar .nav-item {
+    font-size: 13px;
+    font-weight: 400;
+    padding-right: 13px;
+    padding-left: 13px;
+    color: #fff;
+    text-transform: uppercase; }
+    nav.navbar .nav-item:first-child {
+      padding-left: 0; }
+    nav.navbar .nav-item:last-child {
+      padding-right: 0; }
+    nav.navbar .nav-item .nav-link {
+      color: #fff;
+      position: relative;
+      text-decoration: none;
+      padding: 0; }
+      nav.navbar .nav-item .nav-link:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        -o-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s; }
+      nav.navbar .nav-item .nav-link.active:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        transform: scaleX(1); }
+
+nav.fixed-top {
+  position: fixed;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1); }
+  nav.fixed-top .logo {
+    color: #000; }
+    nav.fixed-top .logo:focus, nav.fixed-top .logo:hover {
+      color: #000; }
+  nav.fixed-top .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+  nav.fixed-top .nav-item {
+    color: #000; }
+    nav.fixed-top .nav-item .nav-link {
+      color: #000 !important; }
+      nav.fixed-top .nav-item .nav-link:before {
+        background-color: #000; }
+ /*-----  HEADER -------*/
+ header {
+  position: fixed;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(151, 150, 150,0.1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  padding: 10px 10px 0;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-position: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  float: right;
+  display: flex !important;
+  z-index: 1000;
+}
+
+header .nav-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+header .nav-menu {
+  text-align: center;
+}
+header .nav-menu .nav-menu--link {
+  display: inline-block;
+  padding: 0 0.2em;
+  margin: 0px 15px;
+  text-align: center;
+  font-size: 1.2em;
+
+  position: relative;
+
+  color: #FBD46D;
+    margin-top: 80px;
+    font-weight: 400;
+
+    font-family: "Cookie,Lora,Georgia,serif";
+    letter-spacing: 3px;
+    -webkit-animation: myanim2 1s 1.8s backwards;
+    animation: myanim2 1s 1.8s backwards;
+    font-size: 4.2em;
+    line-height: 1.6em;
+}
+header .nav-menu .nav-menu--link span {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 2px;
+  line-height: 100%;
+  text-align: center;
+}
+/*-----  HEADER -------*/
+/*-----  Position logo--------*/
+
+.logo {
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  width: 8%;
+  height: 8%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+header .logo {
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 1px black;
+  color: #fff;
+
+
+  }
+
+  header .logo:before {
+
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    opacity: .6;
+    z-index: -1;
+  }
+  header .logo span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+header .social-links .social-link:hover {
+  color: #F5AE51;
+}
