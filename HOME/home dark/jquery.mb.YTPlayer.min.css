@@ -211,7 +211,7 @@
 .mb_YTPBar .YTPOverlay {
  backface-visibility:hidden;
  -webkit-backface-visibility:hidden;
- -webkit-transform-style:"flat";
+ /*-webkit-transform-style:"flat";*/
  box-sizing:border-box
 }
 .YTPOverlay.raster {

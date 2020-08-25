@@ -1,5 +1,5 @@
 
-*/@font-face {
+@font-face {
  font-family:"Ionicons";
  src:url("../fonts/ionicons.eot?v=4.5.7");
  src:url("../fonts/ionicons.eot?v=4.5.7#iefix") format("embedded-opentype"),
@@ -710,7 +710,7 @@
 .ion-md-woman:before {
  display:inline-block;
  font-family:"Ionicons";
- speak:none;
+
  font-style:normal;
  font-weight:normal;
  font-variant:normal;
