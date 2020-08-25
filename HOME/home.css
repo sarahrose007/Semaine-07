@@ -522,7 +522,14 @@ overflow: hidden;
     transform: translateX(-50%);
   }
 
-
+  #home-svg {
+    height: 150px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    z-index: 3;
+}
 
 
 
