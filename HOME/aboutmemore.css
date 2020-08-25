@@ -1248,3 +1248,21 @@ a.nav-menu--link{
 }
 
  }
+ .main-btn {
+  color: #F5AE51;
+  border-color: #F5AE51;
+}
+.main-btn {
+  display: inline-block;
+  background-color: #222;
+  padding: 10px 20px;
+  border: 2px solid #222;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: .2s background-color ease;
+  -o-transition: .2s background-color ease;
+  transition: .2s background-color ease;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
