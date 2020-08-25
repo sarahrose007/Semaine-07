@@ -1,0 +1,716 @@
+/*======== 1. Body and Core Css ========*/
+/*************************************
+
+        Table of Content
+
+        A. Body
+        B. Home Section
+        C. About Section
+        D. Formation Section
+        E. Portfolio Section
+
+
+**************************************/
+
+/*======== Formation Page Style========*/
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700");
+
+
+
+/*-----  Body--------*/
+
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none !important;
+  outline: none !important; }
+
+*:after, *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  overflow: auto;
+  height: 100vh;
+  min-width: 750px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #e1e1e1;
+
+
+ }
+
+ /*-----  BODY -------*/
+
+body {
+  font-family: 'Roboto Slab', serif;
+
+  min-width: 750px;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #e1e1e1;
+  background: url("Img/nature.jpg") center no-repeat;
+  background-size: cover;
+  padding-top: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+i, em {
+  font-style: normal;
+ }
+
+a:hover {
+  text-decoration: none;
+}
+
+
+
+
+
+
+span {
+  display: inline-block;
+}
+
+p {
+  line-height: 1.65;
+}
+
+img {
+  width: 100%;
+  height: auto;
+ }
+
+/*a,
+a:hover,
+a:focus {
+  color: inherit;
+ }
+
+a {
+  text-decoration: none;
+  color: #e1e1e1;
+  outline: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+/*-----  HEADER -------*/
+/*-----  Position logo--------*/
+
+.logo {
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  width: 8%;
+  height: 8%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+header .logo {
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 1px black;
+  color: #fff;
+
+
+  }
+
+  header .logo:before {
+
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    opacity: .6;
+    z-index: -1;
+  }
+  header .logo span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  /*-----  HEADER -------*/
+header {
+  position: fixed;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(151, 150, 150,0.1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  padding: 10px 10px 0;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-position: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  float: right;
+  z-index: 1000;
+}
+
+header .nav-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+header .nav-menu {
+  text-align: center;
+}
+header .nav-menu .nav-menu--link {
+  display: inline-block;
+  padding: 0 0.2em;
+  margin: 0px 15px;
+  text-align: center;
+  font-size: 1.2em;
+
+  position: relative;
+
+  color: #FBD46D;
+    margin-top: 80px;
+    font-weight: 400;
+
+    font-family: "Cookie,Lora,Georgia,serif";
+    letter-spacing: 3px;
+    -webkit-animation: myanim2 1s 1.8s backwards;
+    animation: myanim2 1s 1.8s backwards;
+    font-size: 4.2em;
+    line-height: 1.6em;
+}
+header .nav-menu .nav-menu--link span {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 2px;
+  line-height: 100%;
+  text-align: center;
+}
+
+/**************************************/
+#Formation  {
+  z-index: 6;
+  opacity: 1;
+
+}
+/**************************************/
+.sub-heading h3 {
+  color: #e1e1e1;
+  font-weight: 600;
+  font-size: 28px;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+
+
+/**************************************/
+.col-lg-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+ .col-lg-7 {
+  flex:0 0 58.33333%;
+  max-width:58.33333%
+ }
+ .col-lg-8 {
+  flex:0 0 66.66667%;
+  max-width:66.66667%
+ }
+ .col-lg-9 {
+  flex:0 0 75%;
+  max-width:75%
+ }
+ .col-lg-10 {
+  flex:0 0 83.33333%;
+  max-width:83.33333%
+ }
+
+ /*========  Formation Section ========*/
+
+ .section-Formation .experience,
+ .section-Formation .education {
+
+  border-left: 4px solid #e1e1e1;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  background: rgba(255, 255, 255, 0.03);
+  color: #e1e1e1;
+  position: relative;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+  font-weight: 100;
+  max-width: 90%;
+  margin: 0 auto 50px auto;
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+ }
+
+
+
+/*========  Formation Page ========*/
+
+
+
+
+/*-----  id Formation--------*/
+/*-----  Page section Formation--------*/
+/*-----  container--------*/
+/*-----  row--------*/
+/*-----  Formation texte h2--------*/
+/*-----  page heading--------*/
+/*-----  row mb-10--------*/
+
+/*========  Experience Page et column========*/
+.section-Formation .experience p,
+.section-Formation .education p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+/*-----  .col-lg-6--------*/
+
+
+/*-----  sub heading--------*/
+.sub-heading {
+  margin-bottom: 40px;
+  text-align: center;
+  overflow: hidden;
+}
+/*-----  texteh3--------*/
+/*-----  ul experience date line-------*/
+/*-----  Experience date--titre et texte-------*/
+/*-----  Experience date--titre et texte-event------*/
+.section-Formation .experience .event,
+.section-Formation .education .event {
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  position: relative;
+}
+/*-----  event date company------*/
+/*-----   date--titre et h4 et h5-Date------*/
+
+.section-Formation .experience h4,
+ .section-Formation .education h4 {
+
+  font-weight: 600;
+  letter-spacing: .5px;
+  font-size: 20px;
+  text-transform: uppercase;
+ }
+
+.section-Formation .experience h5, .section-Formation .education h5 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #e1e1e1;
+  }
+/*-----   formation experience et p ------*/
+
+
+ .sub-heading {
+  margin-bottom: 40px;
+  text-align: center;
+  overflow: hidden;
+}
+.sub-heading h3 {
+  color: #e1e1e1;
+  font-weight: 600;
+  font-size: 28px;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.section-Formation .experience,
+.section-Formation .education{
+  border-color: #F5AE51;
+}
+.section-Formation .experience,
+.section-Formation .education {
+
+  border-left: 4px solid #e1e1e1;
+  border-left-color: rgb(225, 225, 225);
+-webkit-border-bottom-right-radius: 4px;
+border-bottom-right-radius: 4px;
+-webkit-border-top-right-radius: 4px;
+border-top-right-radius: 4px;
+background: rgba(255, 255, 255, 0.03);
+color: #e1e1e1;
+position: relative;
+padding: 50px;
+list-style: none;
+text-align: left;
+font-weight: 100;
+max-width: 90%;
+margin: 0 auto 50px auto;
+-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+/*-----  formation texte--------*/
+
+.sub-heading {
+  margin-bottom: 40px;
+  text-align: center;
+  overflow: hidden;
+}
+
+/*-----  Texte  pour formation--------*/
+.section-Formation .experience h4,
+ .section-Formation .education h4 {
+  font-weight: 600;
+  letter-spacing: .5px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+/*-----  Texte  pour formation--------*/
+.section-Formation .experience h5 .date, .section-Formation .education h5 .date {
+  margin-right: 5px;
+  padding-right: 10px;
+  border-right: 3px solid #e1e1e1;
+}
+.sub-heading h3 {
+  color: #e1e1e1;
+  font-weight: 600;
+  font-size: 28px;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 5px;
+}
+.section-Formation .experience h5,
+.section-Formation .education h5 {
+  color: #F5AE51;
+}
+.section-Formation .experience h5,
+.section-Formation .education h5 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #e1e1e1;
+}
+
+/*-----  row mb-10--------*/
+
+/*========  Formation Experience colone ========*/
+
+/*-----  Experience Gride colone--------*/
+
+/*-----  Experience date--titre et texte-------*/
+
+/*========  Formation Section skills========*/
+
+.section-Formation .skills {
+  margin-bottom: 20px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.section-Formation .skills {
+  margin-bottom: 20px;
+}
+
+
+p {
+  line-height: 1.65;
+}
+.section-Formation .skills .skill-item {
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+.page-heading h2 {
+  position: relative;
+  font-size: 32px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-family: "Source Serif Pro", serif;
+  color: #e1e1e1;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.col-lg-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.section-resume .skills .skill-item .progress .progress-bar {
+  background-color: #F5AE51;
+}
+.section-resume .skills .skill-item .progress .progress-bar {
+  background-color: #e1e1e1;
+  height: 100%;
+  position: relative;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #007bff;
+  transition: width .6s ease;
+}
+.section-resume .skills .skill-item .progress-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.page-heading h2 {
+  position: relative;
+  font-size: 32px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-family: "Source Serif Pro", serif;
+  color: #e1e1e1;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.page-heading {
+  text-align: center;
+}
+span {
+  display: inline-block;
+}
+section-resume .skills .skill-item .progress .progress-bar {
+  background-color: #F5AE51;
+}
+.section-resume .skills .skill-item .progress .progress-bar::after {
+  position: absolute;
+  content: "";
+  padding: 5px;
+  border: 4px solid #e1e1e1;
+      border-top-color: rgb(225, 225, 225);
+      border-right-color: rgb(225, 225, 225);
+      border-bottom-color: rgb(225, 225, 225);
+      border-left-color: rgb(225, 225, 225);
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  right: 0;
+  top: -7px;
+  background-color: #2a2b30;
+}
+.progress-bar {
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+}
+.page-heading h2 {
+  position: relative;
+  font-size: 32px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-family: "Source Serif Pro", serif;
+  color: #e1e1e1;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+
+}
+.page-heading {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.page-heading h2::before {
+  position: absolute;
+  content: attr(data-shadow);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 62px;
+  text-transform: capitalize;
+  z-index: -1;
+  color: #e1e1e1;
+  font-weight: 700;
+  opacity: .04;
+  text-transform: uppercase;
+}
+.section-Formation {
+  z-index: 6;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) rotate(0.01deg);
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #e1e1e1;
+  background-color: #1d1e21;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html, body {
+  overflow: auto;
+  height: 100vh;
+}
+
+
+.simplebar-content {
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    min-height: 100% !important;
+}
+*/[data-simplebar] {
+  position:relative;
+  z-index:0;
+  overflow:hidden!important;
+  max-height:inherit;
+  -webkit-overflow-scrolling:touch
+ }
+ [data-simplebar=init] {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex
+ }
+ .simplebar-scroll-content {
+  overflow-x:hidden!important;
+  overflow-y:scroll;
+  min-width:100%!important;
+  max-height:inherit!important;
+  -webkit-box-sizing:content-box!important;
+  box-sizing:content-box!important
+ }
+ .simplebar-content {
+  overflow-y:hidden!important;
+  overflow-x:scroll;
+  -webkit-box-sizing:border-box!important;
+  box-sizing:border-box!important;
+  min-height:100%!important
+ }
+ .simplebar-track {
+  z-index:1;
+  position:absolute;
+  right:0;
+  bottom:0;
+  width:11px
+ }
+ .simplebar-scrollbar {
+  position:absolute;
+  right:2px;
+  width:7px;
+  min-height:10px
+ }
+ .simplebar-scrollbar:before {
+  position:absolute;
+  content:"";
+  background:#000;
+  border-radius:7px;
+  left:0;
+  right:0;
+  opacity:0;
+  -webkit-transition:opacity .2s linear;
+  transition:opacity .2s linear
+ }
+ .simplebar-track .simplebar-scrollbar.visible:before,
+ .simplebar-track:hover .simplebar-scrollbar:before {
+  opacity:.5;
+  -webkit-transition:opacity 0 linear;
+  transition:opacity 0 linear
+ }
+ .simplebar-track.vertical {
+  top:0
+ }
+ .simplebar-track.vertical .simplebar-scrollbar:before {
+  top:2px;
+  bottom:2px
+ }
+ .simplebar-track.horizontal {
+  left:0;
+  width:auto;
+  height:11px
+ }
+ .simplebar-track.horizontal .simplebar-scrollbar:before {
+  height:100%;
+  left:2px;
+  right:2px
+ }
+ .horizontal.simplebar-track .simplebar-scrollbar {
+  right:auto;
+  top:2px;
+  height:7px;
+  min-height:0;
+  min-width:10px;
+  width:auto
+ }
