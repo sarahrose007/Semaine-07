@@ -457,3 +457,20 @@ header .logo {
   text-shadow: 0px 1px 1px black;
   color: #fff;
 }
+.main-btn {
+  display: inline-block;
+  background-color: #222;
+  padding: 10px 20px;
+  border: 2px solid #222;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: .2s background-color ease;
+  -o-transition: .2s background-color ease;
+  transition: .2s background-color ease;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.home-area .fixed-wrapper .social-icons {
+  margin-bottom: 0;
+}
